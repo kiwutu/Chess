@@ -62,8 +62,6 @@ public class Main {
         chessGame.makeStep(coor);
     }
 
-    //TODO
-
 
     static private void endGame() {
         System.out.println("Thank you for game! Bye!!! Bye!!!");
