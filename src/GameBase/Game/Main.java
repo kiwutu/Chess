@@ -64,6 +64,7 @@ public class Main {
 
 
     static private void endGame() {
+        System.out.println("End of the game!! Well played!!");
         System.out.println("Thank you for game! Bye!!! Bye!!!");
         isEndGame = true;
     }

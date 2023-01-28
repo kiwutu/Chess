@@ -104,14 +104,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -131,14 +131,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -158,14 +158,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -185,14 +185,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -220,14 +220,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -245,14 +245,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -270,14 +270,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -293,14 +293,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -321,14 +321,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -344,14 +344,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -371,14 +371,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -394,14 +394,14 @@ public class ChessBoard extends Board {
                                     if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("");
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
                                     } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                         if (tempTo.getClass().getSimpleName().equals("King")) {
                                             checkmate = true;
-                                            System.out.println("checkmate:" + Main.stepCounter);
+                                            System.out.println("checkmate");
                                             Main.end_Game();
                                             return false;
                                         }
@@ -433,14 +433,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -459,14 +459,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -489,14 +489,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -515,14 +515,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -546,14 +546,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -573,14 +573,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -600,14 +600,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -627,14 +627,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -666,14 +666,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -692,14 +692,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -722,14 +722,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -748,14 +748,14 @@ public class ChessBoard extends Board {
                                 if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("");
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
                                 } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                     if (tempTo.getClass().getSimpleName().equals("King")) {
                                         checkmate = true;
-                                        System.out.println("checkmate:" + Main.stepCounter);
+                                        System.out.println("checkmate");
                                         Main.end_Game();
                                         return false;
                                     }
@@ -778,14 +778,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -799,14 +799,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -827,14 +827,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
@@ -847,14 +847,14 @@ public class ChessBoard extends Board {
                             if ((Main.stepCounter + 1) % 2 == 1 && tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("");
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
                             } else if ((Main.stepCounter + 1) % 2 == 0 && !tempFrom.isColorIsWhite()) {
                                 if (tempTo.getClass().getSimpleName().equals("King")) {
                                     checkmate = true;
-                                    System.out.println("checkmate:" + Main.stepCounter);
+                                    System.out.println("checkmate");
                                     Main.end_Game();
                                     return false;
                                 }
